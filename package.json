@@ -1,0 +1,27 @@
+{
+  "name": "red-social",
+  "version": "1.0.0",
+  "description": "backend dev version 1.0 with node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "VxOS Software by Daniel Matuz",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.19.0",
+    "connect-multiparty": "^2.2.0",
+    "express": "^4.17.1",
+    "geocoder": "^0.2.3",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.24.0",
+    "mongoose": "^5.9.10",
+    "mongoose-pagination": "^1.0.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
